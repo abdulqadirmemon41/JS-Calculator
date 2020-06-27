@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- Calculator -->
+    <div class="main">
+        <div>
+            <input id="result" class="result" type="text" placeholder="0">
+        </div>
+        <!-- <div>
+            <button class="clrButton" onclick="clearResult()">C</button>
+        </div> -->
+        <div class="main-button">
+            <div>
+                <button class="btn" onclick="percentage()">&percnt;</button>
+                <button class="btn" onclick="del()">CE</button>
+                <button class="btn" onclick="clearResult()">C</button>
+                <button style="background-color: #ff0000;" class="btn" onclick="del()">DEL</button>
+            </div>
+            <div>
+                <button class="btn" onclick="document.getElementById('result').value = 1/(document.getElementById('result').value)">1/x</button>
+                <button class="btn" onclick="document.getElementById('result').value = Math.pow(document.getElementById('result').value,2)">x&sup2;</button>
+                <button class="btn" onclick="document.getElementById('result').value = Math.sqrt(document.getElementById('result').value)">&sup2;&radic;x</button>
+                <button class="btn" onclick="getNumber('/')">&divide;</button>
+            </div>
+            <div>
+                <button class="btn" onclick="getNumber('7')">7</button>
+                <button class="btn" onclick="getNumber('8')">8</button>
+                <button class="btn" onclick="getNumber('9')">9</button>
+                <button class="btn" onclick="getNumber('*')">X</button>
+            </div>
+            <div>
+                <button class="btn" onclick="getNumber('4')">4</button>
+                <button class="btn" onclick="getNumber('5')">5</button>
+                <button class="btn" onclick="getNumber('6')">6</button>
+                <button class="btn" onclick="getNumber('-')">-</button>
+            </div>
+            <div>
+                <button class="btn" onclick="getNumber('1')">1</button>
+                <button class="btn" onclick="getNumber('2')">2</button>
+                <button class="btn" onclick="getNumber('3')">3</button>
+                <button class="btn" onclick="getNumber('+')">+</button>
+            </div>
+            <div>
+                <button class="btn" onclick="negOrPos()">+/-</button>
+                <button class="btn" onclick="getNumber('0')">0</button>
+                <button class="btn" onclick="getNumber('.')">.</button>
+                <button style="background-color: #cc7a00;" class="btn" onclick="getResult()">=</button>
+            </div>
+        </div>
+        <!-- <div>
+            <button class="halfButton" onclick="getNumber('0')">0</button>
+            <button class="halfButton" onclick="getResult()">=</button>
+        </div> -->
+
+
+    </div>
+
+</body>
+<script src="app.js"></script>
+
+</html>

@@ -1,0 +1,59 @@
+body{
+    font-size: 22px;
+}
+.main{
+    border: 1px solid gray;
+    border-radius: 5px;
+    width: 200px;
+    margin: 0 auto;
+    background-color: #35424a;
+    padding: 5px;
+}
+.main-button{
+    margin: 0 auto;
+}
+.result{
+    width: 96%;
+    background-color:#ffffff;
+    font-size: 22px;
+    border: 1px solid white;
+    margin-left: 2px;
+    border-radius: 10px;
+    text-align: end;
+    font-weight: bold;
+
+
+}
+
+.clrButton{
+    width: 100%;
+    background-color: gray;
+
+}
+
+.btn{
+    width: 22%;
+    background-color: #ffffff;
+    margin: 1px;
+    font-size: 12px;
+    font-weight: bold;
+    border: none;
+    border-radius: 10px;
+    height: 20px;
+    width: 40px;
+    padding: 1px;
+    margin-left: 4px;
+    
+}
+.btn:hover{
+    background-color: #adad85;
+}
+.btn-color{
+    
+    background-color: #fff !important;
+}
+.halfButton{
+    background-color: gray;
+    width: 48%;
+
+}
